@@ -6,4 +6,4 @@ def record_spell(spell_name: str, ingredients: str) -> str:
     elif 'VALID' in val_output:
         return f"Spell recorded: {spell_name} ({val_output})"
     else:
-        return None
+        return f'Something went wrong...'
